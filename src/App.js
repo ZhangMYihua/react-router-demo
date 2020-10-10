@@ -7,7 +7,7 @@ const HomePage = props => {
   console.log(props);
   return (
     <div>
-      <button onClick={() => props.history.push('/topics')}>Topics </button>
+      <button onClick={() => props.history.push('/blog/topics')}>Topics </button>
       <h1>HOME PAGE</h1>
     </div>
   );
